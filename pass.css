@@ -1,0 +1,98 @@
+
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f7f7f7; /* Light gray background */
+}
+
+/* Heading styles */
+h1 {
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Text shadow for a subtle effect */
+}
+
+/* Container styles */
+#passwordContainer {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+}
+
+/* Container header styles */
+.container-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Password inputs container styles */
+.password-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Password input styles */
+#passwordInput,
+#confirmPasswordInput {
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Eye icon styles */
+.eye-icon {
+    font-size: 24px;
+    margin-top: 10px;
+    cursor: pointer;
+    user-select: none;
+    color: #777;
+}
+
+/* Strength indicator styles */
+.strength-indicator {
+    margin-top: 20px;
+    position: relative;
+}
+
+/* Strength bar styles */
+.strength-bar {
+    height: 20px;
+    width: 0;
+    background-color: #ccc;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+/* Strength text styles */
+#strengthText {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Password validity message styles */
+#confirmPasswordValidityMessage {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Password suggestions styles */
+#passwordSuggestions {
+    margin-top: 10px;
+    color: #777;

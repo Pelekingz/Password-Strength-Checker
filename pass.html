@@ -1,0 +1,34 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="pass.css">
+</head>
+<body>
+    <h1>Password Strength Checker</h1>
+
+    <div id="passwordContainer">
+        <div class="container-header">Password Management</div>
+        <div class="password-inputs">
+        <input type="password" id="passwordInput" placeholder="Enter your password">
+        <input type="password" id="confirmPasswordInput" placeholder="Confirm your password">
+        <div class="eye-icon" id="togglePassword">&#128065;</div> <!-- Eye icon using HTML entity -->
+    </div>
+     <div id="passwordSuggestions"></div>
+
+    <div id="strengthIndicator" class="strength-indicator">
+        <div class="strength-bar"></div>
+        <span id="strengthText"></span>
+    </div>
+</div>
+
+
+    <div id="confirmPasswordValidityMessage"></div>
+
+    <script src="pass_strength.js"></script>
+</body>
+</html>
